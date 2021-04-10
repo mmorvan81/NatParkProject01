@@ -24,7 +24,6 @@ text-align: center; color: rgb(255, 255, 255);
     margin-left: 1rem;
 }
 ​
-​
 .form-group2{
     padding-top: 3rem;
     padding-left: 1rem;
@@ -40,6 +39,7 @@ text-align: center; color: rgb(255, 255, 255);
 #search-input {
     padding: 10px;
 }
+
 #form-input {
     
     
@@ -49,9 +49,9 @@ text-align: center; color: rgb(255, 255, 255);
 .btn-info {
     color:rgba(113, 142, 155, 0.61);
     background-color:rgba(68, 94, 104, 0.753);
-    
     font-size: 20px;
 }
+
 .btn-danger {
     color: rgb(100, 107, 98);
     background-color:rgb(93, 95, 95);
@@ -72,6 +72,12 @@ form {
     border-radius: 3rem;
     padding-top: 3rem;
     padding-left: 1rem;
+}
+
+#searchBtn {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: flex;
 }
 ​
 .col-12 {
