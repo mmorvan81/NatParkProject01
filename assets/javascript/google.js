@@ -27,6 +27,7 @@ function renderNewMarker(json) {
   markers.push(marker);
 }
 
+// Clearing map markers on every new search
 function clearMapMarkers() {
   for (var i = 0; i < markers.length; i++) {
       markers[i].setMap(null)
