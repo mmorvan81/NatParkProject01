@@ -11,7 +11,7 @@ text-align: center; color: rgb(255, 255, 255);
 }
 .masthead {
     padding: 12em 0;
-    background-image: url('https://t4.ftcdn.net/jpg/02/98/51/21/240_F_298512167_uxfZe31ytJ3nei6aZOdDDQiH2nLq2LFm.jpg');
+    background-image: url("https://t4.ftcdn.net/jpg/02/98/51/21/240_F_298512167_uxfZe31ytJ3nei6aZOdDDQiH2nLq2LFm.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
