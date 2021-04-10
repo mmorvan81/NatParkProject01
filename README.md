@@ -3,7 +3,7 @@ This is a web app for searching open National Parks with a State filter.
 
 #User Story
 When a user wants to find an open national park that is withing a certain state they can navigate to this web page:
-https://sirjkm.github.io/NPSDashboard/
+https://mmorvan81.github.io/NatParkProject01/
 
 #Functionality
 A user will be able to filter locations by state using this sidebar
