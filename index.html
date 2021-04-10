@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>National Park Service Search</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<link rel="stylesheet" href="./Assets/style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Park Service Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./Assets/style/style.css">
 </head>
 
 <body>
     <header class='masthead'>
         <h1 class='masthead-heading'>Which National Parks Can You Go To?</h1>
     </header>
-
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <form>
-                <div class="col-12 flex-column align-center bg-light">
+                <div class="col-12 flex-column align-center">
                     <!--This changes the container size in the search, city, etc-->
-                    <div id="search-form" class="form w-100">
+                    <div id="search-form" class="form w-100" style="width: 20rem; height: 25rem;">
                         ​
-                        <select id="stateChoice" class="form-input w-100">
+                        <select id="stateChoice" class="form-input w-100"
+                            style="width: 2rem; height: 2rem; border-radius: 2rem;">
                             <option value="" disabled>Search for a state...</option>
                             <option value="AL">Alabama</option>
                             <option value="AK">Alaska</option>
@@ -105,7 +107,13 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-info btn-block" id="searchBtn">Search</button>
+                        <div class="search-bar row">
+                            <div class="col-sm-10">
+                                <button id="searchBtn" class="btn btn-info btn-block" type="submit"><i
+                                        class="fa fa-search"></i>Search</button>
+                            </div>
+                            ​
+                        </div>
                     </div>
                 </div>
             </form>
@@ -115,7 +123,7 @@
             <div class="col-sm-2 col-md-4 col-lg-6">
                 <div class="row">
                     <div class="col">
-                        <ul class="list-group" id="search-results">
+                        <ul class="list-group-item" id="search-results" style="width: 60rem;">
                         </ul>
                     </div>
                 </div>
