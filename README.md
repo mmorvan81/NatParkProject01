@@ -7,7 +7,7 @@ https://sirjkm.github.io/NPSDashboard/
 
 #Functionality
 A user will be able to filter locations by state using this sidebar
-<img width="268" alt="Screen Shot 2021-04-10 at 8 14 05 AM" src="https://user-images.githubusercontent.com/77699412/114269380-b98bde80-99d4-11eb-832e-c3bbb0de3d3c.png">
+<img width="1387" alt="Screen Shot 2021-04-10 at 8 16 34 AM" src="https://user-images.githubusercontent.com/77699412/114269439-18e9ee80-99d5-11eb-8ee0-bab41c2fb260.png">
 
 The map will center on the results
 <img width="1088" alt="Screen Shot 2021-04-10 at 8 14 21 AM" src="https://user-images.githubusercontent.com/77699412/114269386-c1e41980-99d4-11eb-91f4-f74c9016b796.png">
