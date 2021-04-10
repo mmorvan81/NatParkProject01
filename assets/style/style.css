@@ -1,0 +1,62 @@
+body {
+    color: #90ADBB;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.content-footer,
+.masthead-heading {
+    padding-bottom: 3rem;
+    text-align: center; color: rgb(255, 255, 255);
+}
+.masthead {
+    padding: 9em 0;
+    background-image: url('https://www.nps.gov/npgallery/GetAsset/6b493ecc-669d-492f-a731-1c4489010195/proxy/hires?');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 1rem;
+}
+.form-group2{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.col-sm-2{
+    padding-right: 4rem;
+}
+.flex-row {
+    padding: 20px
+}
+#search-input {
+    padding: 10px;
+}
+#format-input {
+    padding: 10px;
+}
+.btn-info {
+    color:black;
+    background-color:darkgray;
+    padding: 10px;
+    font-size: 20px;
+}
+.btn-danger {
+    color: blue;
+    background-color:cyan;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+.row2{
+    padding-right: 10rem;
+}
+form {
+    padding-top: 2rem;
+    padding-right: 5rem;
+}
+.list-group {
+    height: 20rem;width: 50rem;
+}
