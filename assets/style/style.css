@@ -10,7 +10,7 @@ body {
 }
 .masthead {
     padding: 9em 0;
-    background-image: url('https://www.nps.gov/npgallery/GetAsset/6b493ecc-669d-492f-a731-1c4489010195/proxy/hires?');
+    background-image: url("https://www.nps.gov/npgallery/GetAsset/6b493ecc-669d-492f-a731-1c4489010195/proxy/hires?");
     background-size: cover;
     background-repeat: no-repeat;
 }
